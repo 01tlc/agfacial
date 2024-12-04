@@ -1,0 +1,17 @@
+Anexo teste agrupamento facial /
+│
+├── app.py                   # Main application entry point
+├── models/
+│   ├── __init__.py          # Init file for the models package
+│   ├── base_model.py        # Base class for embedding models
+│   ├── facenet_model.py     # Implementation of the FaceNet model
+├── clustering/
+│   ├── __init__.py          # Init file for the clustering package
+│   ├── base_clustering.py   # Base class for clustering methods
+│   ├── kmeans_clustering.py # Implementation of K-Means clustering
+├── utils/
+│   ├── __init__.py          # Init file for the utils package
+│   ├── image_utils.py       # Image loading and preprocessing
+│   ├── visualization.py     # Cluster visualization
+│   ├── postprocessing.py    # Fixed cluster size enforcement
+└── README.md                # Documentation
